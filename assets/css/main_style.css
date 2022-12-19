@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/Suprise/assets/picture/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main {
+    max-width: 700px;
+    padding-top: 400px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Rouge Script';
+}
+
+.text-content {
+    font-size: 80px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.sub-content {
+    font-size: 28px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+

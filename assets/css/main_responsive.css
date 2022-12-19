@@ -1,0 +1,37 @@
+/** PC */
+@media screen and (min-width: 64em) {
+    
+}
+
+/** Tablet */
+@media screen and ((max-width: 63.9375em) and (min-width: 46.25em)) {
+    .main {
+        max-width: 400px;
+        padding-top: 450px;
+    }
+
+    .text-content {
+        font-size: 70px;
+    }
+
+    .sub-content {
+        font-size: 40px;
+    }
+}
+
+/** Mobile */
+@media screen and (max-width: 46.1875em) {
+    .main {
+        max-width: 400px;
+        padding-top: 300px;
+    }
+
+    .text-content {
+        font-size: 40px;
+    }
+
+    .sub-content {
+        max-width: 60%;
+        font-size: 20px;
+    }
+}
